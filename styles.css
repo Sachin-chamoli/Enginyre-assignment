@@ -1,0 +1,289 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0.8rem 0;
+}   
+.contact{
+    background-color: rgb(253, 126, 57);
+    padding: 0.5rem 2rem;
+    color: white;
+    border-radius: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    margin: 0 30px;
+    font-size: 20px;
+}
+nav img{
+    width: 150px;
+}
+.content{
+    width: 100%;
+    background-color: rgb(237, 230, 230);
+}
+.part1{
+    background-image: url("images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 80vh ;
+    color: white;
+    border-radius: 0 0 8rem 8rem;
+    padding: 6rem 7rem;
+}
+#heading{
+    font-size: 45px;
+}
+#sub-heading{
+    font-size: 22px;
+}
+.part1 div{
+    width: 35%;
+}
+.part1 button{
+    background-color: rgb(253, 126, 57);
+    padding: 0.5rem 2rem;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+.part1 *{
+    margin: 1rem 0;
+}
+#title{
+    font-size: 2.2rem;
+    text-align: center;
+    margin: 4.5rem 0;
+}
+.row1{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 3rem 0;
+}
+.photo{
+    width: 40%;
+    
+}
+.photo img{
+    border-radius: 3rem;
+    box-shadow:0 0 15px -2px #444444;
+    width: 80%;
+    height: auto;
+}
+.about{
+    width: 35%;
+    padding: 2rem 0;
+
+}
+.about *{
+    margin-top: 1rem;
+   
+}
+.about button{
+    background-color: rgb(253, 126, 57);
+    padding: 0.5rem 2rem;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+.question{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.ans{
+    font-size: 1.5rem;
+}
+.row2{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 3rem 0;
+    margin-bottom: 3rem;
+    padding-bottom: 3rem;
+}
+.works{
+    padding: 2rem 0;
+}
+.works #head{
+    font-size: 35px;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+#items{
+    display: flex;
+    justify-content: space-evenly   ;
+    width: 90%;
+    margin: auto;
+}
+#items div{
+    text-align: center;
+    width: 15% ;
+}
+#items div *{
+    margin-top: 1rem;
+}
+#items div img{
+    width: 100%;
+    border-radius: 20px;
+}
+.uses{
+    padding: 2rem 0;
+    background-color: #17b2b2;
+}
+#top{
+    text-align: center;
+    font-size: 30px;
+    width: 30%;
+    color: white;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+.uses .use-case{
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+}
+.solutions{
+    background-color: rgb(237, 230, 230);
+    padding: 3rem 0;
+}
+.solutions > div{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.solutions img{
+    width: 100%;
+}
+.solutions i{
+    font-size: 30px;
+    cursor: pointer;
+}
+.solutions > div div{
+    width: 20%;
+    border: 1px solid #17b2b2;
+    border-radius: 1.8rem;
+    overflow: hidden;
+
+}
+#topic{
+    text-align: center;
+    padding-bottom: 3rem;
+    font-size: 30px;
+}
+.solutions > div div p{
+    padding: 20px;
+}
+.connect{
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.connect *{
+    padding: 0.6rem 0;
+}
+#p1{
+    font-size: 30px;
+}
+#p2{
+    font-size: 25px;
+    color: rgb(114, 113, 113);
+}
+.connect  button{
+    background-color: rgb(253, 126, 57);
+    padding: 0.5rem 2rem;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+footer{
+    background-color:#17b2b2 ;
+    color: white;
+    width: 100%;
+}
+footer img{
+    margin: 2rem 0 0 15rem;
+}
+.line1{
+    width: 75%;
+    margin: auto;
+    font-size: 22px;
+    display: flex;
+    justify-content: space-between;
+}
+.line1 div{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+.line2{
+    width: 75%;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin:auto;
+    margin-top: 1.8rem;
+    align-items: center;
+}
+.icons{
+    color: #17b2b2;
+    display: flex;
+    justify-content: space-between;
+    width: 13%;
+}
+.icons i{
+    background-color: white;
+    padding: 10px;
+    width: 2rem;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.line2 p{
+    width: 20%;
+}
+.line3{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.line3 div{
+    width: 43%;
+    margin: 2rem 0;
+}
+
+#terms{
+    font-size: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+#details{
+    text-align: end;
+    font-size: 19px;
+}
